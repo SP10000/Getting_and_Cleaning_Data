@@ -15,11 +15,11 @@ if(!file.exists("./datapacks")){dir.create("./datapacks")}
 FileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(FileUrl,destfile="./datapacks/Datapack.zip")
 
-###Now unzip the datapack to the right folder ###
+### Now unzip the datapack to the right folder ###
 unzip(zipfile="./datapacks/Datapack.zip",exdir="./datapacks")
 
 
-###Load 'data.table' package###
+### Load 'data.table' package ###
 library(data.table)
 
 
