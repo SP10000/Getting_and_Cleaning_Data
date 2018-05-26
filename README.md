@@ -44,7 +44,7 @@ activity_labels = read.table("./datapacks/UCI HAR Dataset/activity_labels.txt")
 features <- read.table("./datapacks/UCI HAR Dataset/features.txt")
 
 
-### Giving the tables the right columnnames ###
+### Giving the tables the right column names ###
 ### Since all data is now read, its should be made a more combined and tidy dataset ###
 ### First make the variables of x_test and x_train more concrete, by combining with the features table ###
 colnames(x_test) <- features[,2]
