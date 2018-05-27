@@ -1,1 +1,16 @@
+### CodeBook ###
+This exercise is for the final exercise for the Getting and Cleaning Data Course.
 
+The data in the project comes from:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+And exists of two more or less equal test and train dataset, containing:
+  - subject_test.txt
+  - X_test.txt
+  - y_test.txt
+  
+  -subject_train.txt
+  - X_train.txt
+  - y_train.txt
+  
