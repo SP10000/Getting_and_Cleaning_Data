@@ -5,7 +5,7 @@ The data in the project comes from:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-And exists of two more or less equal test and train dataset, containing:
+The major datafiles are two more or less equal test and train dataset, containing:
   - subject_test.txt
   - X_test.txt
   - y_test.txt
@@ -14,3 +14,10 @@ And exists of two more or less equal test and train dataset, containing:
   - X_train.txt
   - y_train.txt
   
+ Furthermore, it contains the:
+  - activity_labels.txt: describing the activity name corresponding with the activity code
+  - features; containing the variables names
+  
+  - features_info; describing more the reasoning behind the features name
+  
+ Finally, there is the ReadMe.txt file explaining the data and research purpose of data 
