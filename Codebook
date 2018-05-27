@@ -21,3 +21,10 @@ The major datafiles are two more or less equal test and train dataset, containin
   - features_info; describing more the reasoning behind the features name
   
  Finally, there is the ReadMe.txt file explaining the data and research purpose of data 
+ 
+
+### Data Modification ###
+ 
+After the first modifications the Complete_table variable is created by combining all datasets together, containing 10299 observations of 563 variables
+The answer to question 4 is created by the next modifications resulting in the Total_Set_With_Activity_Label, containing 10299 observations of 10 variables
+Finally, for question 5 a new data set is created, called: New_data_set_sorted containing 180 observations of 10 variables.
